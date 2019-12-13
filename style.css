@@ -1,15 +1,7 @@
-#h1
-{ 
-
-font-size: x-large;
-
-}
-
-#h2{
-
-    font-size: x-small;
-}
-
-#numbers {
-    display: inline;
-}
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #013329;
+    color: white;
+    font-size: 30px;
+  }
