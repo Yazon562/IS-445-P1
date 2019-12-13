@@ -42,7 +42,7 @@ if (primeNumbs.length == 0)
 
 {
 
-document.getElementById('output_content').innerHTML = "There were no prime no within the range.";
+document.getElementById('output_content').innerHTML = "Invalid input, please try again.";
 
 }else
 
