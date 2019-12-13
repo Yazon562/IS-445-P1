@@ -7,16 +7,57 @@
     <script src="app.js" defer></script>
   </head>
   <body>
-      <div class = 'content' id = 'content'>
-          <div class = 'headerBar' id = 'headerBar'> 
-              <div class = 'header'>
-                  <span class = 'headerTitle'> Contact Management </span>
-                  <input type = 'button' class = 'buttons' id = 'index' value = '&#9776 Index'/>
-                  <input type = 'button' class = 'buttons' id = 'newtab' value = '&#10010 New'/>
-              </div>
-          </div>
-          <div class = 'targetArea' id = 'targetArea'></div>
-        </div>
+    <body>
+
+        <h1>HTML Forms</h1>
+        
+        <form name="form">
+        
+        Number 1:<br>
+        
+        <input type="text" name="num1">
+        
+        <p id="idnum1" class="text-danger"></p>
+        
+        <br>
+        
+        Number 2:<br>
+        
+        <input type="text" name="num2">
+        
+        <p id="idnum2" class="text-danger"></p>
+        
+        <br><br>
+        
+        <button type="button" onclick="myFunction()">Click Me!</button>
+        
+        </form>
+
+        <h2 align="center">HTML Forms</h2>
+
+<form name="numbers" align="center">
+
+Beginning Number: <br>
+
+<input type="text" name="firstNum" /> <br>
+
+End Number: <br>
+
+<input type="text" name="secondNum" /> <br> <br>
+
+<input type="button" value="Find Prime Numbers" onclick="calcPrimeNumber()" />
+
+</form>
+
+<form name="disp" align="center">
+
+<div id="prime_count" class="text-info"></div>
+
+<div id="output_content" class="text-success"></div>
+
+</form>
+        
+        
   </body>
 </html>
 
