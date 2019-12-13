@@ -42,7 +42,7 @@ if (primeNumbs.length == 0)
 
 {
 
-document.getElementById('output_content').innerHTML = "There were no prime no within the range.";
+document.getElementById('output_content').innerHTML = "Invalid input, please try again.";
 
 }else
 
@@ -50,7 +50,7 @@ document.getElementById('output_content').innerHTML = "There were no prime no wi
 
 //else print prime number count and prime numbers in the range
 
-var count="<h2>Prime Numbers Count:</h2>";
+var count="<h2>Prime Numbers:</h2>";
 
 var html = "<h2>Prime Numbers</h2>";
 
