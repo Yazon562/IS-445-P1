@@ -52,7 +52,7 @@ document.getElementById('output_content').innerHTML = "Invalid input, please try
 
 var count="<h2>There are this many prime numbers:</h2>";
 
-var html = "<h2></h2>";
+var html = "<h2>Prime Numbers</h2>";
 
 for(i=0;i<primeNumbs.length;i++)
 
