@@ -50,7 +50,7 @@ document.getElementById('output_content').innerHTML = "Invalid input, please try
 
 //else print prime number count and prime numbers in the range
 
-var count="<h2>There are this many prime numbers:</h2>";
+var count="<h2>Prime Numbers Count:</h2>";
 
 var html = "<h2>Prime Numbers</h2>";
 
