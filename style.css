@@ -10,6 +10,6 @@ font-size: x-large;
     font-size: x-small;
 }
 
-:first-child+html #button-panel {
+#numbers {
     display: inline;
 }
